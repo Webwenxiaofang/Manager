@@ -1,0 +1,173 @@
+/* 
+body{
+background-color: #f5f6f8
+}
+.main {
+  padding: 0 50px;
+  background-color:hsla(0, 0%, 100%, 0.7);
+ width: 400px;
+  height:300px;
+  left:50%;
+  margin-left: -200px; 
+  top:50%;
+  margin-top:-150px;
+  position:absolute;
+  border-radius: 6px;
+  border:1px solid #dfdfdf
+}
+
+h3{
+ text-align: center;
+ margin-top: 10px !important;
+ color: #cccccc !important;
+}
+
+.item{
+   padding: 10px;
+}
+
+.upload-list-inline .ant-upload-list-item {
+  float: left;
+  width: 200px;
+  margin-right: 8px;
+}
+.upload-list-inline .ant-upload-animate-enter {
+  animation-name: uploadAnimateInlineIn;
+}
+.upload-list-inline .ant-upload-animate-leave {
+  animation-name: uploadAnimateInlineOut;
+} */
+div {
+  display: block;
+}
+
+.container-fill,
+.container-fill-bg {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+.container-fill-bg {
+  overflow-y: auto;
+  background-image: url(./signup-bg.png);
+  background-size: cover;
+  background-position: left center;
+}
+
+.single-card-wrapper {
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.single-card-wrapper .logo {
+  text-align: center;
+}
+
+.single-card-wrapper .logo a {
+  position: relative;
+  display: inline-block;
+}
+
+.single-card {
+  background: #fff;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .08), inset 0 0 3px #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .08), inset 0 0 3px #fff;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 80px;
+}
+
+.single-card .card-header {
+  border-bottom: solid 1px #eaeaea;
+  padding-bottom: 13px;
+  position: relative;
+  font-size: 22px;
+  color: #4d5250;
+  letter-spacing: 2px;
+  padding-left: 10px;
+}
+
+.single-card .card-body {
+  margin-top: 5px;
+  padding: 20px 20px 0;
+}
+
+.single-card .card-body .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.form-group {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+
+.form-group .control-label {
+  color: #888;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.single-card .card-body .input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.input-group .form-control {
+  padding: 10px 15px;
+  height: 44px;
+  font-size: 16px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+
+
+.form-group .btn-lg {
+  border-radius: 4px;
+  padding: .5rem 2.215rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  min-width: 108px;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  color: #fff;
+  background-color: #408EF7;
+  border-color: #408EF7;
+}
+
+.btn {
+  text-align: center;
+  font-weight: 400;
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .469rem 26px;
+  font-size: .875rem;
+  line-height: 1.5;
+  min-width: 106px;
+  border-radius: 1.25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-block,
+input[type=submit].btn-block,
+input[type=button].btn-block,
+input[type=reset].btn-block {
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+
+/*编辑器*/
+.editor {
+  border: 1px solid #d9d9d9 
+}
+.bf-controlbar .control-item{
+  margin:0 !important
+
+}
+.bf-controlbar .separator-line{
+  margin:4px !important
+}
